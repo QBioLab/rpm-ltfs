@@ -9,8 +9,8 @@ Spec files for LTFS
 
 # How to create rpm
 
-1. Install rpmbuild `yum install rpmbuild`
-2. Install spectool `yum install rpmdevtools`
+1. Install rpmbuild `zypper install rpmbuild`
+2. Install spectool `zypper install rpmdevtools`
 3. Create rpmbuild directory structure if it is not existed `touch ./dummy.spec; rpmbuild ./dummy.spec`
 4. copy ltfs.spec to rpmbuild/SPECS
 5. cd rpmbuild
@@ -21,5 +21,4 @@ Spec files for LTFS
 
 # Confimed OS
 
-* CentOS 7: ltfs.spec
-* CentOS 8: ltfs.spec
+* Opensuse 15.1: ltfs.spec
