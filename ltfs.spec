@@ -4,7 +4,7 @@ Version: 2.4.2.0
 Release: 10418
 License: BSD
 Group: Util
-Packager: User piste2750 on GitHub
+Packager: User piste2750 on GitHub and H.F.
 
 URL:     https://github.com/LinearTapeFileSystem/ltfs
 Source0: https://github.com/LinearTapeFileSystem/ltfs/archive/v2.4.2.0-10418/ltfs-2.4.2.0.tar.gz
@@ -14,7 +14,7 @@ BuildRequires: icu libicu-devel libxml2-devel libuuid-devel fuse-devel
 BuildRequires: net-snmp-devel
 
 Requires: /sbin/ldconfig, /usr/bin/awk, /usr/bin/systemctl
-Requires:  libicu libxml2 libuuid fuse
+Requires:  libicu libxml2 libuuid1 fuse
 Requires:  net-snmp
 
 %if %{defined suse_version}
